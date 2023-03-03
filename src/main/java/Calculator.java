@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class HelloWorld {
+public class Calculator {
     public static void main(String[] args) {
 //        System.out.println("Hello World!");
-        HelloWorld helloWorld = new HelloWorld();
+        Calculator calculator = new Calculator();
         System.out.println("Enter a number: ");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        System.out.println(helloWorld.factorial(n));
+        System.out.println(calculator.factorial(n));
     }
 
     public int factorial(int n) {
